@@ -1,5 +1,7 @@
+@import url("../fonts/Rational/stylesheet.css");
+
 h1, h2, h3, h4 {
-	font-family: "Yatra One", sans-serif;
+	font-family: "rationalblack", sans-serif;
 	/*font-weight: "Black Italic"; */
 	font-size: 50px;
 }
@@ -10,12 +12,17 @@ h2 {
 
 body {
 	background-color: #F0F0F0;
-	background-image: url(../images/bg/bg_02.jpg);
-	background-repeat: no-repeat;
-    background-size: 100%;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 20px;
 	margin: 0;
 	padding: 3em;
+	min-height: 100vh;
+}
+
+body.frontpage {
+	background-image: url(../images/bg/bg_23.jpg);
+    background-size: 100% 100%;
+
 }
 
 header {
@@ -25,6 +32,11 @@ header {
 .main {
 	padding: 0;
 	margin: 0;
+}
+
+.proj {
+	padding: 0;
+	margin-top: 5em;
 }
 
 a {
@@ -43,13 +55,51 @@ a:hover {text-decoration: underline;
 nav ul {
 	list-style: none;
 	padding: 0;
-	margin-top: 3em;
-	text-shadow: #f6d2ff 2px 2px 1px;
+	margin-top: 1em;
+	text-shadow: #f6d2ff 1.5px 1.5px;
 }
 
-nav ul li {
+nav.main ul.frontpage {
+	margin-top: 3em;
+}
+
+nav.main ul li {
 	display: inline;
-	margin-right: 2em;
+	margin-right: 1.5em;
+	font-size: 25px;
+	font-family: "rationalsemibold", sans-serif;
+}
+
+nav.main ul li.frontpage {
 	font-size: 40px;
 }
 
+.proj ul li {
+	display: inline-block;
+	margin-right: 4em;
+	text-shadow: 0 0;
+	font-family: 'Inknut Antiqua', serif;
+    font-size: 30px;
+    line-height: 2em;
+    height: 100px;
+}
+
+.proj ul li:hover {text-shadow: #FFFC8F 1.5px 1.5px;
+}
+
+.proj ul li img {
+	position: absolute;
+	z-index:-5;
+	margin-left: 2em;
+	margin-top: -1em;
+}
+
+.headerpic {
+	margin-top: 0.3em;
+	margin-right: 0;
+	float: right;
+}
+
+.headerpic img {
+	height: 120px;
+}
