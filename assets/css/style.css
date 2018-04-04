@@ -82,6 +82,8 @@ nav.main ul li.frontpage {
     font-size: 30px;
     line-height: 2em;
     height: 100px;
+    background-color: grey;
+    background-size: 1500px 500px;
 }
 
 .proj ul li:hover {text-shadow: #FFFC8F 1.5px 1.5px;
