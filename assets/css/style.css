@@ -75,7 +75,7 @@ nav.main ul li.frontpage {
 }
 
 .proj ul li {
-	display: inline-block;
+	float: left;
 	margin-right: 4em;
 	text-shadow: 0 0;
 	font-family: 'Inknut Antiqua', serif;
