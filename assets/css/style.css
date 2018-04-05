@@ -29,6 +29,32 @@ header {
 
 }
 
+.head {
+        position: relative;
+        display: inline-block;
+        }
+    .head .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .head:hover .img-top {
+        display: inline;
+    }
+
+.headerpic {
+	margin-top: 0.3em;
+	margin-right: 0;
+	float: right;
+	position: relative;
+	}
+
+	.headerpic img {
+	height: 120px;
+	}
+
 .main {
 	padding: 0;
 	margin: 0;
@@ -76,17 +102,19 @@ nav.main ul li.frontpage {
 
 .proj ul li {
 	float: left;
-	margin-right: 4em;
+	margin-right: 2em;
+	margin-bottom: 4em;
 	text-shadow: 0 0;
 	font-family: 'Inknut Antiqua', serif;
     font-size: 30px;
     line-height: 2em;
     height: 100px;
-    background-color: grey;
-    background-size: 1500px 500px;
+	/*background-color: grey;    */
+	width: 450px;
+    height: 300px;
 }
 
-.proj ul li:hover {text-shadow: #FFFC8F 1.5px 1.5px;
+.proj ul li a:hover {text-shadow: #FFFC8F 1.5px 1.5px;
 }
 
 .proj ul li img {
@@ -96,12 +124,3 @@ nav.main ul li.frontpage {
 	margin-top: -1em;
 }
 
-.headerpic {
-	margin-top: 0.3em;
-	margin-right: 0;
-	float: right;
-}
-
-.headerpic img {
-	height: 120px;
-}
