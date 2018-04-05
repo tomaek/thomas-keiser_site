@@ -31,14 +31,12 @@ header {
 
 .head {
         position: relative;
-        display: inline-block;
         }
     .head .img-top {
         display: none;
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 99;
     }
     .head:hover .img-top {
         display: inline;
@@ -46,14 +44,18 @@ header {
 
 .headerpic {
 	margin-top: 0.3em;
-	margin-right: 0;
+	margin-right: 5em;
 	float: right;
-	position: relative;
 	}
 
 	.headerpic img {
 	height: 120px;
 	}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
 
 .main {
 	padding: 0;
@@ -62,7 +64,7 @@ header {
 
 .proj {
 	padding: 0;
-	margin-top: 5em;
+	margin-top: 15em;
 }
 
 a {
