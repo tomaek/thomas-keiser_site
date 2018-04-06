@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<span id='player'></span>
+
 <head class="frontpage">
 	<title>thomas-keiser</title>
 	<meta charset="utf-8">
@@ -15,9 +17,12 @@
 		<img src="assets/images/Thomas-Keiser_LOGO_02.svg" width="700px">
 		<img src="assets/images/Thomas-Keiser_LOGO_03.svg" class="img-top" width="700px">
 		</a>
-		<div class="headerpic">
-			<img src="assets/images/S64_27_bearb2-frei.png" >
-		</div>
+			<div class="headerpic">
+
+  			<input type="image" src="assets/images/S64_27_bearb2-frei.png" alt="Submit" height= "120px" onclick='playRandomSound();' value='Play Random Sound' />
+
+			</div>
+
 	</header>
 
 	<nav class="main">
@@ -30,6 +35,24 @@
 		</ul>
 	</div>
 	</nav>
+
+	<script language="javascript" type="text/javascript">
+ 		function playRandomSound(){
+
+      //An array to house all of the URLs of your sounds
+      var sounds = [
+      "../assets/sounds/snd_01.mp3",
+      "../assets/sounds/snd_02.mp3",
+      "../assets/sounds/snd_03.mp3",
+		];
+      
+      //This line will select a random sound to play out of your provided URLS
+      var soundFile = sounds[Math.floor(Math.random()*sounds.length)];
+      
+      //Find the player element that you created and generate an embed file to play the sound within it
+      document.getElementById("player").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+	}
+ 	</script>
 </head>
 
 <body class="frontpage">
