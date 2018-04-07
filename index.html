@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-<span id='player'></span>
+<!-- <span id='player'></span> -->
+
+<audio id="mySoundClip">
+  <source src="/sound/snd_01.mp3" type="audio/mp3" />
+ </audio>
+
+<audio src="https://github.com/tomaek/thomas-keiser_site/tree/master/assets/sounds/snd_01.mp3" autoplay>
+  Your browser does not support the <code>audio</code> element.
+</audio>
 
 <head class="frontpage">
 	<title>thomas-keiser</title>
@@ -19,8 +27,11 @@
 		</a>
 			<div class="headerpic">
 
-  			<input type="image" src="assets/images/S64_27_bearb2-frei.png" alt="Submit" height= "120px" onclick='playRandomSound();' value='Play Random Sound' />
+	<a href="#"><img name="logo" src="assets/images/S64_27_bearb2-frei.png" height= "120px" onMouseOver="logo.src='assets/images/S64_27_bearb2-frei.png'; mysound.play();" onMouseOut="logo.src='assets/images/S64_27_bearb2-frei.png'" class="logo"/></a>
 
+
+  		<!-- 	<input type="image" src="assets/images/S64_27_bearb2-frei.png" alt="Submit" height= "120px" onclick='playRandomSound();' value='Play Random Sound' />
+ -->
 			</div>
 
 	</header>
@@ -36,7 +47,7 @@
 	</div>
 	</nav>
 
-	<script language="javascript" type="text/javascript">
+	<!-- <script language="javascript" type="text/javascript">
  		function playRandomSound(){
 
       //An array to house all of the URLs of your sounds
@@ -52,7 +63,12 @@
       //Find the player element that you created and generate an embed file to play the sound within it
       document.getElementById("player").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
 	}
- 	</script>
+ 	</script> -->
+
+ 	<script type="text/javascript">
+    var mysound = document.getElementById("mySoundClip");
+</script>
+
 </head>
 
 <body class="frontpage">
