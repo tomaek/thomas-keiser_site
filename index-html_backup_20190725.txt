@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>thomas-keiser</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:700" rel="stylesheet">
+	<link rel="icon" 
+      type="image/png" 
+      href="assets/images/S64_27_bearb2-frei.png" />
+	
+</head>
+
+<body class="frontpage">
+	<!-- this is a comment-->
+
+	<div class="sticky">
+	<header class="head">
+		<a href="index.html">
+		<img src="assets/images/Thomas-Keiser_LOGO_02.svg" width="700px">
+		<img src="assets/images/Thomas-Keiser_LOGO_03.svg" class="img-top" width="700px">
+		</a>
+			<div class="headerpic">
+			<img name="logo" src="assets/images/S64_27_bearb2-frei.png" id="test" />
+			</div>
+
+	</header>
+
+	<nav class="main">
+		<ul class="frontpage">
+			<li class="frontpage"><a href="works.html"> works</a></li>
+			<li class="frontpage"><a href="#"> about</a></li>
+			<li class="frontpage"><a href="mailto:t.keiser@gmx.net"> contact</a></li>
+			<li class="frontpage"><a href="https://vimeo.com/user630482" target="_blank">vimeo</a></li>
+			<li class="frontpage"><a href="https://soundcloud.com/tommy_toothpick" target="_blank">soundcloud</a></li>
+		</ul>
+	</div>
+	</nav>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+ 	var images = [
+    'bg_04.jpg',
+    'bg_05.jpg',
+    'bg_06.jpg',
+    'bg_07.jpg',
+    'bg_09.jpg',
+    'bg_10.jpg',
+    'bg_11.jpg',
+    'bg_12.jpg',
+    'bg_13.jpg',
+    'bg_14.jpg',
+    'bg_15.jpg',
+    'bg_16.jpg',
+    'bg_17.jpg',
+    'bg_18.jpg',
+    'bg_19.jpg',
+    'bg_20.jpg',
+    'bg_21.jpg',
+    'bg_22.jpg',
+    'bg_23.jpg',
+    'bg_24.jpg',
+    'bg_25.jpg',
+    'bg_26.jpg',
+    'bg_27.jpg',
+    'bg_28.jpg',
+    'bg_30.jpg',
+    'bg_31.jpg',
+    'bg_32.jpg',
+    'bg_33.jpg',
+    'bg_34.jpg',
+    'bg_35.jpg',
+    'bg_36.jpg',
+    'bg_37.jpg',
+    'bg_38.jpg',
+    'bg_39.jpg',
+    'bg_40.jpg',
+    'bg_41.jpg',
+    'bg_42.png',
+    'bg_43.png',
+    'bg_44.png',
+    'bg_45.png',
+    'bg_46.jpg',
+    'bg_47.jpg',
+    'bg_48.jpg',
+    'bg_49.jpg',
+    'bg_50.jpg',
+    'bg_51.jpg',
+    'bg_52.jpg',
+    'bg_53.jpg',
+    'bg_54.jpg',
+    'bg_55.jpg',
+    'bg_56.jpg',
+    'bg_57.jpg',
+    'bg_58.jpg',
+    'bg_59.jpg',
+    'bg_60.jpg',
+    'bg_61.jpg',
+    'bg_62.jpg',
+    'bg_63.jpg',
+    'bg_64.jpg',
+    'bg_65.jpg',
+    'bg_66.jpg',
+    'bg_67.jpg',
+    'bg_68.jpg',
+    'bg_69.jpg',
+    'bg_70.jpg',
+    'bg_71.jpg',
+    'bg_72.png'
+];
+ $('body').css({'background-image': 'url(assets/images/bg/' + images[Math.floor(Math.random() * images.length)] + ')'});
+</script>
+
+<script type="text/javascript">
+var sounds = [];
+
+// Return the full list of URLs in random order
+function getSounds() {
+    return [
+    'assets/sounds/snd_1.mp3',
+    'assets/sounds/snd_2.mp3',
+    'assets/sounds/snd_3.mp3',
+    'assets/sounds/snd_4.mp3',
+    'assets/sounds/snd_5.mp3',
+    'assets/sounds/snd_6.mp3',
+    'assets/sounds/snd_7.mp3',
+    'assets/sounds/snd_8.mp3',
+    'assets/sounds/snd_9.mp3',
+    'assets/sounds/snd_10.mp3',
+    'assets/sounds/snd_11.mp3',
+    'assets/sounds/snd_12.mp3',
+    'assets/sounds/snd_13.mp3',
+    'assets/sounds/snd_14.mp3',
+    'assets/sounds/snd_15.mp3',
+    'assets/sounds/snd_16.mp3',
+    'assets/sounds/snd_17.mp3',
+    'assets/sounds/snd_18.mp3',
+    'assets/sounds/snd_19.mp3',
+    'assets/sounds/snd_20.mp3',
+    'assets/sounds/snd_21.mp3',
+    'assets/sounds/snd_22.mp3',
+    'assets/sounds/snd_23.mp3',
+    'assets/sounds/snd_24.mp3',
+    'assets/sounds/snd_25.mp3',
+    'assets/sounds/snd_26.mp3',
+    'assets/sounds/snd_27.mp3',
+    'assets/sounds/snd_28.mp3',
+    'assets/sounds/snd_29.mp3',
+    'assets/sounds/snd_30.mp3',
+    'assets/sounds/snd_31.mp3',
+    'assets/sounds/snd_32.mp3',
+    'assets/sounds/snd_33.mp3',
+    'assets/sounds/snd_34.mp3',
+    'assets/sounds/snd_35.mp3',
+    'assets/sounds/snd_36.mp3',
+    'assets/sounds/snd_37.mp3',
+    'assets/sounds/snd_38.mp3',
+    'assets/sounds/snd_39.mp3',
+    'assets/sounds/snd_40.mp3',
+    'assets/sounds/snd_41.mp3',
+    'assets/sounds/snd_42.mp3',
+    'assets/sounds/snd_43.mp3',
+    'assets/sounds/snd_44.mp3',
+    'assets/sounds/snd_45.mp3',
+    'assets/sounds/snd_46.mp3',
+    'assets/sounds/snd_47.mp3',
+    'assets/sounds/snd_48.mp3',
+    'assets/sounds/snd_49.mp3',
+    'assets/sounds/snd_50.mp3',
+    'assets/sounds/snd_51.mp3',
+    'assets/sounds/snd_52.mp3',
+    'assets/sounds/snd_53.mp3',
+    'assets/sounds/snd_54.mp3',
+    'assets/sounds/snd_55.mp3',
+    'assets/sounds/snd_56.mp3',
+    'assets/sounds/snd_57.mp3',
+    'assets/sounds/snd_58.mp3',
+    'assets/sounds/snd_59.mp3',
+    'assets/sounds/snd_60.mp3',
+    'assets/sounds/snd_61.mp3',
+    'assets/sounds/snd_62.mp3',
+    'assets/sounds/snd_63.mp3',
+    'assets/sounds/snd_64.mp3',
+    'assets/sounds/snd_65.mp3',
+    'assets/sounds/snd_66.mp3',
+    'assets/sounds/snd_67.mp3',
+    'assets/sounds/snd_68.mp3',
+    'assets/sounds/snd_69.mp3',
+    'assets/sounds/snd_70.mp3',
+    'assets/sounds/snd_71.mp3',
+    'assets/sounds/snd_72.mp3',
+    'assets/sounds/snd_73.mp3',
+    'assets/sounds/snd_74.mp3',
+    'assets/sounds/snd_75.mp3',
+    'assets/sounds/snd_76.mp3',
+    'assets/sounds/snd_77.mp3',
+    'assets/sounds/snd_78.mp3',
+    'assets/sounds/snd_79.mp3',
+    'assets/sounds/snd_80.mp3',
+    'assets/sounds/snd_81.mp3',
+    'assets/sounds/snd_82.mp3',
+    'assets/sounds/snd_83.mp3',
+    'assets/sounds/snd_84.mp3',
+    'assets/sounds/snd_85.mp3',
+    'assets/sounds/snd_86.mp3',
+    'assets/sounds/snd_87.mp3',
+    'assets/sounds/snd_88.mp3',
+    'assets/sounds/snd_89.mp3',
+    'assets/sounds/snd_90.mp3',
+    'assets/sounds/snd_91.mp3',
+    'assets/sounds/snd_92.mp3',
+    'assets/sounds/snd_93.mp3',
+    'assets/sounds/snd_94.mp3',
+    'assets/sounds/snd_95.mp3',
+    'assets/sounds/snd_96.mp3',
+    'assets/sounds/snd_97.mp3',
+    'assets/sounds/snd_98.mp3',
+    'assets/sounds/snd_99.mp3',
+    'assets/sounds/snd_100.mp3',
+    'assets/sounds/snd_101.mp3',
+    'assets/sounds/snd_102.mp3',
+    'assets/sounds/snd_103.mp3',
+    'assets/sounds/snd_104.mp3',
+    'assets/sounds/snd_105.mp3',
+    'assets/sounds/snd_106.mp3',
+    'assets/sounds/snd_107.mp3',
+    'assets/sounds/snd_108.mp3',
+    'assets/sounds/snd_109.mp3',
+    'assets/sounds/snd_110.mp3',
+    'assets/sounds/snd_111.mp3',
+    'assets/sounds/snd_112.mp3',
+    'assets/sounds/snd_113.mp3',
+    'assets/sounds/snd_114.mp3',
+    'assets/sounds/snd_115.mp3',
+    'assets/sounds/snd_116.mp3',
+    'assets/sounds/snd_117.mp3',
+    'assets/sounds/snd_118.mp3',
+    'assets/sounds/snd_119.mp3',
+    'assets/sounds/snd_120.mp3',
+    'assets/sounds/snd_121.mp3',
+    'assets/sounds/snd_122.mp3',
+    'assets/sounds/snd_123.mp3',
+    'assets/sounds/snd_124.mp3',
+    'assets/sounds/snd_125.mp3',
+    'assets/sounds/snd_126.mp3',
+    'assets/sounds/snd_127.mp3',
+    'assets/sounds/snd_128.mp3',
+    'assets/sounds/snd_129.mp3',
+    'assets/sounds/snd_130.mp3',
+    'assets/sounds/snd_131.mp3',
+    'assets/sounds/snd_132.mp3',
+    'assets/sounds/snd_133.mp3',
+    'assets/sounds/snd_134.mp3',
+    'assets/sounds/snd_135.mp3',
+    'assets/sounds/snd_136.mp3',
+    'assets/sounds/snd_137.mp3',
+    'assets/sounds/snd_138.mp3',
+    'assets/sounds/snd_139.mp3',
+    'assets/sounds/snd_140.mp3',
+    'assets/sounds/snd_141.mp3',
+    'assets/sounds/snd_142.mp3',
+    'assets/sounds/snd_143.mp3',
+    'assets/sounds/snd_144.mp3',
+    'assets/sounds/snd_145.mp3',
+    'assets/sounds/snd_146.mp3',
+    'assets/sounds/snd_147.mp3',
+    'assets/sounds/snd_148.mp3',
+    'assets/sounds/snd_149.mp3',
+    'assets/sounds/snd_150.mp3',
+    'assets/sounds/snd_151.mp3',
+    'assets/sounds/snd_152.mp3',
+    'assets/sounds/snd_153.mp3',
+    'assets/sounds/snd_154.mp3',
+    'assets/sounds/snd_155.mp3',
+    'assets/sounds/snd_156.mp3',
+    'assets/sounds/snd_157.mp3',
+    'assets/sounds/snd_158.mp3',
+    'assets/sounds/snd_159.mp3',
+    'assets/sounds/snd_160.mp3',
+    'assets/sounds/snd_161.mp3',
+    'assets/sounds/snd_162.mp3',
+    'assets/sounds/snd_163.mp3',
+    'assets/sounds/snd_164.mp3',
+    'assets/sounds/snd_165.mp3',
+    'assets/sounds/snd_166.mp3',
+    'assets/sounds/snd_167.mp3',
+    'assets/sounds/snd_168.mp3',
+    'assets/sounds/snd_169.mp3',
+    'assets/sounds/snd_170.mp3',
+    'assets/sounds/snd_171.mp3',
+    'assets/sounds/snd_172.mp3',
+    'assets/sounds/snd_173.mp3',
+    'assets/sounds/snd_174.mp3',
+    'assets/sounds/snd_175.mp3',
+    'assets/sounds/snd_176.mp3',
+    'assets/sounds/snd_177.mp3',
+    'assets/sounds/snd_178.mp3',
+    'assets/sounds/snd_179.mp3',
+    'assets/sounds/snd_180.mp3',
+    'assets/sounds/snd_181.mp3',
+    'assets/sounds/snd_182.mp3',
+    'assets/sounds/snd_183.mp3',
+    'assets/sounds/snd_184.mp3',
+    'assets/sounds/snd_185.mp3',
+    'assets/sounds/snd_186.mp3',
+    'assets/sounds/snd_187.mp3',
+    'assets/sounds/snd_188.mp3',
+    'assets/sounds/snd_189.mp3',
+    'assets/sounds/snd_190.mp3',
+    'assets/sounds/snd_191.mp3',
+    'assets/sounds/snd_192.mp3',
+    'assets/sounds/snd_193.mp3',
+    'assets/sounds/snd_194.mp3',
+    'assets/sounds/snd_195.mp3',
+    'assets/sounds/snd_196.mp3',
+    'assets/sounds/snd_197.mp3',
+    'assets/sounds/snd_198.mp3',
+    'assets/sounds/snd_199.mp3',
+    'assets/sounds/snd_200.mp3',
+    'assets/sounds/snd_201.mp3',
+    'assets/sounds/snd_202.mp3',
+    'assets/sounds/snd_203.mp3',
+    'assets/sounds/snd_204.mp3',
+    'assets/sounds/snd_205.mp3',
+    'assets/sounds/snd_206.mp3',
+    'assets/sounds/snd_207.mp3',
+    'assets/sounds/snd_208.mp3',
+    'assets/sounds/snd_209.mp3',
+    'assets/sounds/snd_210.mp3',
+    'assets/sounds/snd_211.mp3',
+    'assets/sounds/snd_212.mp3',
+    'assets/sounds/snd_213.mp3',
+    'assets/sounds/snd_214.mp3',
+    'assets/sounds/snd_215.mp3',
+    'assets/sounds/snd_216.mp3',
+    'assets/sounds/snd_217.mp3',
+    'assets/sounds/snd_218.mp3',
+    'assets/sounds/snd_219.mp3',
+    'assets/sounds/snd_220.mp3',
+    'assets/sounds/snd_221.mp3',
+    'assets/sounds/snd_222.mp3',
+    'assets/sounds/snd_223.mp3',
+    'assets/sounds/snd_224.mp3',
+    'assets/sounds/snd_225.mp3',
+    'assets/sounds/snd_226.mp3',
+    'assets/sounds/snd_227.mp3',
+    'assets/sounds/snd_228.mp3',
+    'assets/sounds/snd_229.mp3',
+    'assets/sounds/snd_230.mp3',
+    'assets/sounds/snd_231.mp3',
+    'assets/sounds/snd_232.mp3',
+    'assets/sounds/snd_233.mp3',
+    'assets/sounds/snd_234.mp3',
+    'assets/sounds/snd_235.mp3',
+    'assets/sounds/snd_236.mp3',
+    'assets/sounds/snd_237.mp3',
+    'assets/sounds/snd_238.mp3',
+    'assets/sounds/snd_239.mp3',
+    'assets/sounds/snd_240.mp3',
+    'assets/sounds/snd_241.mp3',
+    'assets/sounds/snd_242.mp3',
+    'assets/sounds/snd_243.mp3',
+    'assets/sounds/snd_244.mp3',
+    'assets/sounds/snd_245.mp3',
+    'assets/sounds/snd_246.mp3',
+    'assets/sounds/snd_247.mp3',
+    'assets/sounds/snd_248.mp3',
+    'assets/sounds/snd_249.mp3',
+    'assets/sounds/snd_250.mp3',
+    'assets/sounds/snd_251.mp3',
+    'assets/sounds/snd_252.mp3',
+    'assets/sounds/snd_253.mp3',
+    'assets/sounds/snd_254.mp3',
+    'assets/sounds/snd_255.mp3',
+    'assets/sounds/snd_256.mp3',
+    'assets/sounds/snd_257.mp3',
+    'assets/sounds/snd_258.mp3',
+    'assets/sounds/snd_259.mp3',
+    'assets/sounds/snd_260.mp3',
+    'assets/sounds/snd_261.mp3',
+    'assets/sounds/snd_262.mp3',
+    'assets/sounds/snd_263.mp3',
+    'assets/sounds/snd_264.mp3',
+    'assets/sounds/snd_265.mp3',
+    'assets/sounds/snd_266.mp3',
+    'assets/sounds/snd_267.mp3',
+    'assets/sounds/snd_268.mp3',
+    'assets/sounds/snd_269.mp3'
+    ].sort(function () {
+        // http://stackoverflow.com/a/18650169/283078
+        return (.5 - Math.random());
+    });
+}
+
+// Play the next sound
+function playSound() {
+    if (!sounds.length) {
+        // Get the list of sounds (random order)
+        sounds = getSounds();
+    }
+
+    // Pops a URL every time, ensuring all are played exactly once
+    $("#audioplayer").html(
+        '<embed src="' + sounds.pop() +
+        '" hidden="true" autostart="true" />'
+    );
+
+    // Once all the URLs have been popped, the array is repopulated
+}
+
+$('#test').mouseover(playSound);
+</script>
+<div id="audioplayer"></div>
+</body>
+</html>
