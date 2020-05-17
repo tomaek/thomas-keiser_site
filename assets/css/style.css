@@ -19,11 +19,21 @@ body {
 	min-height: 100vh;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 body.frontpage {
 	background-image: url(../images/bg/bg_23.jpg);
-    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: auto;
+} 
 
-}
 
 header {
 
@@ -50,7 +60,7 @@ header {
 	}
 
 	.headerpic img {
-	height: 120px;
+	height: 70px;
 	}
 
 .sticky {
@@ -89,7 +99,7 @@ nav ul {
 }
 
 nav.main ul.frontpage {
-	margin-top: 3em;
+	margin-top: 1.5em;
 }
 
 nav.main ul li {
@@ -100,7 +110,7 @@ nav.main ul li {
 }
 
 nav.main ul li.frontpage {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .proj ul li {
