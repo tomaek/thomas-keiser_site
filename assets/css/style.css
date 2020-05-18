@@ -1,18 +1,18 @@
 @import url("../fonts/Rational/stylesheet.css");
 
 h1, h2, h3, h4 {
-	font-family: "rationalblack", sans-serif;
+	font-family: "rationalsemibold", sans-serif;
 	/*font-weight: "Black Italic"; */
-	font-size: 50px;
+	font-size: 60px;
 }
 
-h2 {
-	font-size: 30px;
+h4 {
+	font-size: 20px;
 }
 
 body {
 	background-color: #F0F0F0;
-    font-family: 'Inknut Antiqua', serif;
+    font-family: "rational", sans-serif;
     font-size: 20px;
 	margin: 0;
 	padding: 3em;
@@ -78,6 +78,12 @@ header {
 	margin-top: 15em;
 }
 
+.caption {
+	margin-top: 0em;
+	font-size: 15px;
+
+}
+
 a {
 	text-decoration: none;
 	color: #000000;
@@ -104,8 +110,8 @@ nav.main ul.frontpage {
 
 nav.main ul li {
 	display: inline;
-	margin-right: 1.5em;
-	font-size: 25px;
+	margin-right: 5em;
+	font-size: 50px;
 	font-family: "rationalsemibold", sans-serif;
 }
 
@@ -130,10 +136,22 @@ nav.main ul li.frontpage {
 .proj ul li a:hover {text-shadow: #FFFC8F 1.5px 1.5px;
 }
 
-.proj ul li img {
-	position: absolute;
-	z-index:-5;
-	margin-left: 2em;
-	margin-top: -1em;
+.del ul {
+	margin-top: 10em;
+	float: left;
+	margin-right: 2em;
+	margin-bottom: 4em;
+	text-shadow: 0 0;
+	font-family: "rational", sans-serif;
+    font-size: 20px;
+    line-height: 1.3em;
+    height: 100px;
+	/*background-color: grey;    */
+	width: 2000px;
+    height: 300px;
+    
 }
 
+.type {
+	width: 1000px; 
+}
