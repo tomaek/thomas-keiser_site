@@ -3,7 +3,7 @@
 h1, h2, h3, h4 {
 	font-family: "rationalsemibold", sans-serif;
 	/*font-weight: "Black Italic"; */
-	font-size: 60px;
+	font-size: 30px;
 }
 
 h4 {
@@ -79,8 +79,8 @@ header {
 }
 
 .caption {
-	margin-top: 0em;
-	font-size: 15px;
+	margin-top: -1em;
+	font-size: 17px;
 
 }
 
@@ -110,7 +110,7 @@ nav.main ul.frontpage {
 
 nav.main ul li {
 	display: inline;
-	margin-right: 5em;
+	margin-right: 1.5em;
 	font-size: 50px;
 	font-family: "rationalsemibold", sans-serif;
 }
@@ -139,7 +139,7 @@ nav.main ul li.frontpage {
 .del ul {
 	margin-top: 10em;
 	float: left;
-	margin-right: 2em;
+	margin-right: 5em;
 	margin-bottom: 4em;
 	text-shadow: 0 0;
 	font-family: "rational", sans-serif;
@@ -147,11 +147,10 @@ nav.main ul li.frontpage {
     line-height: 1.3em;
     height: 100px;
 	/*background-color: grey;    */
-	width: 2000px;
     height: 300px;
     
 }
 
 .type {
-	width: 1000px; 
+	width: 700px; 
 }
