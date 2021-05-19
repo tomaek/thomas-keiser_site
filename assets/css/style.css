@@ -1,6 +1,6 @@
 @import url("../fonts/Rational/stylesheet.css");
 
-h1, h2, h3, h4 {
+h1, h2 {
 	font-family: "rationalsemibold", sans-serif;
 	/*font-weight: "Black Italic"; */
 	font-size: 30px;
@@ -8,6 +8,12 @@ h1, h2, h3, h4 {
 
 h4 {
 	font-size: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	text-decoration: underline;
+	text-shadow: #f6d2ff 1.3px 1.3px;
 }
 
 body {
@@ -85,16 +91,19 @@ header {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: unset;
 	color: #000000;
 }
 
 a, a:visited {
-	text-decoration: none;
-	color: ;
+	text-decoration: unset;
+	color: #000000;
 }
 
-a:hover {text-decoration: underline;
+a:hover {
+	text-decoration: unset;
+	color: #f6d2ff;
+	text-shadow: #000000 1.3px 1.3px;
 }
 
 nav ul {
